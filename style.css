@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+
+body header nav {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 120px;
+}
+
+/* nav bar design */
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+header nav ul li {
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-button button {
+  color: white;
+  background-color: #469165;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 16px;
+} /*hover effect*/
+.nav-button button:hover {
+  transform: scale(1.1);
+  background-color: #1e5f39;
+}
+header nav ul li:hover {
+  transform: scale(1.2);
+  font-weight: bolder;
+  color: purple;
+}
+/* nav bar design */
+header section {
+  background-image: url(assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  padding: 70px 120px 134px 120px;
+  height: 674px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero {
+  /* border: 3px solid white; */
+
+  text-align: center;
+  padding: 40px;
+}
+.heading {
+  font-size: 72px;
+  font-weight: 700;
+  color: white;
+  margin: 16px 0;
+}
+section .heading span {
+  color: #469165;
+}
+header section .paragraph {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.banner-button button {
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  margin-right: 16px;
+  background-color: #469165;
+  color: white;
+}
+.banner-button #button-right {
+  border: 1px solid white;
+  background: transparent;
+}
+.Early {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 1000px;
+  width: 229px;
+}
+
+.box-for-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Early p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #469165;
+}
+/* crating dot int the early box */
+.Early .dot {
+  height: 16px;
+  width: 16px;
+  background-color: #c0ddcc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dot div {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #6eb48b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dot div div {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: #228d4d;
+}
+/* ends of crating dot int the early box  */
