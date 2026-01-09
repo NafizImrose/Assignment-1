@@ -280,3 +280,30 @@ header section .paragraph {
   vertical-align: bottom;
   margin-left: 5px;
 }
+/* Footer section starts */
+footer section {
+  padding: 120px 120px 30px 120px;
+  background-color: #001931;
+}
+footer .mother {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  color: white;
+}
+.m-of-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 16px;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 30px;
+  border-top: 1px solid #627382;
+}
