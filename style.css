@@ -35,7 +35,7 @@ header nav ul li a {
   text-decoration: none;
   color: black;
 }
-.nav-button button {
+.btn {
   color: white;
   background-color: #469165;
   border: none;
@@ -43,10 +43,26 @@ header nav ul li a {
   font-size: 16px;
   font-weight: 600;
   padding: 12px 16px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.18);
 } /*hover effect*/
-.nav-button button:hover {
+.btn:hover {
   transform: scale(1.1);
   background-color: #1e5f39;
+}
+.banner-button #button-right {
+  border: 1px solid white;
+  background: transparent;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 16px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.18);
+}
+
+#button-right:hover {
+  /* transform: scale(1.1); */
+  background-color: #1e5f39;
+  border: none;
 }
 header nav ul li:hover {
   transform: scale(1.2);
@@ -96,10 +112,7 @@ header section .paragraph {
   background-color: #469165;
   color: white;
 }
-.banner-button #button-right {
-  border: 1px solid white;
-  background: transparent;
-}
+
 .Early {
   display: flex;
   justify-content: center;
@@ -240,4 +253,30 @@ header section .paragraph {
   gap: 16px;
   padding-left: 0px;
   margin-left: 0px;
+}
+
+/* Advance -section */
+.advance-section {
+  padding: 0 120px 120px 120px;
+}
+.advance {
+  /* border: 1px solid black; */
+  padding: 80px 40px;
+  text-align: center;
+  background-color: #f7f6f2;
+}
+.advance h4 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.advance p {
+  font-size: 16px;
+  color: #627382;
+  margin: 24px;
+}
+.btn i {
+  vertical-align: bottom;
+  margin-left: 5px;
 }
