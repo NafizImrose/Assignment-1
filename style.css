@@ -64,9 +64,8 @@ header nav ul li a {
 }
 
 #button-right:hover {
-  transform: scale(1.1);
-  background-color: #1e5f39;
-  border: none;
+  color: #469165;
+  border: 1px solid #1e5f39;
 }
 header nav ul li:hover {
   transform: scale(1.2);
