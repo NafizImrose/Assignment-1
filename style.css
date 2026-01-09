@@ -201,3 +201,43 @@ header section .paragraph {
   color: #627382;
   margin-bottom: 30px;
 }
+/* brain-section */
+.brain-container {
+  padding: 120px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.brain-container .brain-options {
+  padding: 102px 0;
+}
+#solution {
+  font-size: 16px;
+  font-weight: 500;
+  color: #469165;
+}
+.brain-options h4 {
+  padding: 16px 0;
+  font-size: 48px;
+  font-weight: bold;
+}
+.brain-options p {
+  font-size: 16px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+.brain-options ul li {
+  list-style: none;
+  gap: 10px;
+}
+.brain-options ul li img {
+  vertical-align: middle;
+  margin-right: 6px;
+}
+.brain-options ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 0px;
+  margin-left: 0px;
+}
